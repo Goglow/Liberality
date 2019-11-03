@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Liberality
 //
-//  Created by Melissa GS on 03/11/2019.
+//  Created by Waggle Glow on 03/11/2019.
 //  Copyright © 2019 Goglow. All rights reserved.
 //
 

@@ -12,6 +12,7 @@
 		83148533236F5C520079FC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83148531236F5C520079FC3E /* Main.storyboard */; };
 		83148535236F5C520079FC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83148534236F5C520079FC3E /* Assets.xcassets */; };
 		83148538236F5C520079FC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83148536236F5C520079FC3E /* LaunchScreen.storyboard */; };
+		83148548236F7C350079FC3E /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83148547236F7C350079FC3E /* Balham.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83148534236F5C520079FC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83148537236F5C520079FC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83148539236F5C520079FC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83148547236F7C350079FC3E /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		8314852C236F5C520079FC3E /* Liberality */ = {
 			isa = PBXGroup;
 			children = (
-				8314852D236F5C520079FC3E /* AppDelegate.swift */,
-				8314852F236F5C520079FC3E /* ViewController.swift */,
+				83148549236F7C540079FC3E /* Model */,
+				8314854A236F7C5A0079FC3E /* View */,
+				8314854B236F7C680079FC3E /* Controller */,
+				8314854C236F7C710079FC3E /* Supporting files */,
+			);
+			path = Liberality;
+			sourceTree = "<group>";
+		};
+		83148549236F7C540079FC3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8314854A236F7C5A0079FC3E /* View */ = {
+			isa = PBXGroup;
+			children = (
 				83148531236F5C520079FC3E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8314854B236F7C680079FC3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8314852F236F5C520079FC3E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8314854C236F7C710079FC3E /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8314852D236F5C520079FC3E /* AppDelegate.swift */,
 				83148534236F5C520079FC3E /* Assets.xcassets */,
 				83148536236F5C520079FC3E /* LaunchScreen.storyboard */,
 				83148539236F5C520079FC3E /* Info.plist */,
+				83148547236F7C350079FC3E /* Balham.otf */,
 			);
-			path = Liberality;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +160,7 @@
 			files = (
 				83148538236F5C520079FC3E /* LaunchScreen.storyboard in Resources */,
 				83148535236F5C520079FC3E /* Assets.xcassets in Resources */,
+				83148548236F7C350079FC3E /* Balham.otf in Resources */,
 				83148533236F5C520079FC3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53FLK3FCZ4;
-				INFOPLIST_FILE = Liberality/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Liberality/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Goglow.Liberality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53FLK3FCZ4;
-				INFOPLIST_FILE = Liberality/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Liberality/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Goglow.Liberality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
