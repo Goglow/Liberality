@@ -13,6 +13,8 @@
 		83148535236F5C520079FC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83148534236F5C520079FC3E /* Assets.xcassets */; };
 		83148538236F5C520079FC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83148536236F5C520079FC3E /* LaunchScreen.storyboard */; };
 		83148548236F7C350079FC3E /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = 83148547236F7C350079FC3E /* Balham.otf */; };
+		83B3527723706DC400312959 /* Liberality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3527623706DC400312959 /* Liberality.swift */; };
+		83B3527923706E0400312959 /* LiberalityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3527823706E0400312959 /* LiberalityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		83148537236F5C520079FC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83148539236F5C520079FC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83148547236F7C350079FC3E /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		83B3527623706DC400312959 /* Liberality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liberality.swift; sourceTree = "<group>"; };
+		83B3527823706E0400312959 /* LiberalityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		83148549236F7C540079FC3E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				83B3527623706DC400312959 /* Liberality.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				8314852F236F5C520079FC3E /* ViewController.swift */,
+				83B3527823706E0400312959 /* LiberalityViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83148530236F5C520079FC3E /* ViewController.swift in Sources */,
+				83B3527923706E0400312959 /* LiberalityViewController.swift in Sources */,
+				83B3527723706DC400312959 /* Liberality.swift in Sources */,
 				8314852E236F5C520079FC3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
