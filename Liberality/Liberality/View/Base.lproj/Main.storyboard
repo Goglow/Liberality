@@ -113,8 +113,7 @@
                                 </segments>
                                 <color key="tintColor" red="0.96211701630000002" green="0.63600146769999999" blue="0.69776242970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="controlValueChanged:" destination="24p-Bo-ttR" eventType="valueChanged" id="tSu-D1-Xhn"/>
-                                    <action selector="controlValueChanges:" destination="24p-Bo-ttR" eventType="valueChanged" id="Qbm-Ta-2Lk"/>
+                                    <action selector="controlValueChanged:" destination="24p-Bo-ttR" eventType="valueChanged" id="3ZI-ak-3xl"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bill amount" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fb-XL-rOg">
@@ -130,7 +129,7 @@
                     </view>
                     <connections>
                         <outlet property="billLabel" destination="nyh-8X-ubV" id="r8w-Fx-6E0"/>
-                        <outlet property="segmentedControl" destination="vic-rA-arR" id="4GK-7O-B3l"/>
+                        <outlet property="segmentedControl" destination="vic-rA-arR" id="Tpc-a5-StY"/>
                         <outlet property="slider" destination="Wvj-zi-PHI" id="K4x-0n-Fdb"/>
                         <outlet property="tipLabel" destination="CeI-AZ-wL2" id="eTU-O3-bgx"/>
                     </connections>

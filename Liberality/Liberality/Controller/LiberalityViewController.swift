@@ -23,27 +23,25 @@ class LiberalityViewController: UIViewController {
     
     @IBAction func controlValueChanged(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
-            currencySign = "€"
+            liberality.currencySign = "€"
         } else {
-            currencySign = "$"
+            liberality.currencySign = "$"
         }
         updateDisplay()
     }
     
-    let taxTip = 0.12
-    var currencySign = "€"
-    
     func updateDisplay() {
         let billAmount = slider.value
         
-        let tipAmount = Double(billAmount) * taxTip
+        let tipAmount = Double(billAmount) * liberality.taxTip
         
-        billLabel.text = String(Int(billAmount)) + " " + currencySign
-        tipLabel.text = String(Int(tipAmount)) + " " + currencySign
+        billLabel.text = String(Int(billAmount)) + " " + liberality.currencySign
+        tipLabel.text = String(Int(tipAmount)) + " " + liberality.currencySign
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         updateDisplay()
     }
 }

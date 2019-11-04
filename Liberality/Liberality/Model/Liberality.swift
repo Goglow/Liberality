@@ -9,5 +9,6 @@
 import Foundation
 
 class Liberality {
-    var title = ""
+    let taxTip = 0.12
+    var currencySign = "€"
 }
